@@ -1,3 +1,8 @@
+body{
+  background-color:rgb(121, 107, 107);
+  color:white;
+}
+
 form { margin-top: 0px; }
 form, #results { padding: 0 20px; }
 .item { margin-bottom: 25px; }
@@ -5,3 +10,16 @@ form, #results { padding: 0 20px; }
 
 .btn-primary { background: rgb(0, 0, 0); border-color: #957575; }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: grey;  border-color: rgb(0, 0, 0); }
+
+/* Settings For Items*/
+  
+table, th, td {
+  border: 5px solid #232F34;
+  font-size:15px;
+  color:white;
+  background-color: rgb(81, 87, 90);
+}
+  
+table {
+  width: 100%;
+}

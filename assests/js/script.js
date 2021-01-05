@@ -10,8 +10,39 @@ $(function() {
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
             maxResults: 10,
             order: "viewCount",
-            //channel
-            publishedAfter: "2020-01-01T00:00:00Z"
+            publishedAfter: "2020-01-01T00:00:00Z",
+       }); 
+       // execute the request
+       request.execute(function(response) {
+          var results = response.result;
+          console.log(results);
+          $("#results").html("");
+          $.each(results.items, function(index, item) {
+            $.get("item.html", function(data) {
+                $("#results").append(tplawesome(data, [{"title":item.snippet.title, "videoid":item.id.videoId,"channeltitle":item.snippet.channelTitle, "description":item.snippet.description}]));
+                
+            });
+            
+          });
+          resetVideoHeight();
+       });
+    });
+    
+    $(window).on("resize", resetVideoHeight);
+});
+
+$(function() {
+    $("form").on("submit", function(e) {
+       e.preventDefault();
+       // prepare the request
+       var request = gapi.client.youtube.search.list({
+            part: "snippet",
+            relatedToVideoId: "Ks-_Mh1QhMc",
+            type: ["video"]
+            q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
+            maxResults: 10,
+            order: "viewCount",
+            publishedAfter: "2020-01-01T00:00:00Z",
        }); 
        // execute the request
        request.execute(function(response) {

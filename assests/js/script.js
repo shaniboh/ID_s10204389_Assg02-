@@ -38,7 +38,7 @@ $(function() {
        var request = gapi.client.youtube.search.list({
             part: "snippet",
             relatedToVideoId: "Ks-_Mh1QhMc",
-            type: ["video"]
+            type: ["video"],
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
             maxResults: 10,
             order: "viewCount",

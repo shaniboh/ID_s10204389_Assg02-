@@ -11,6 +11,7 @@ form, #results { padding: 0 20px; }
 .btn-primary { background: rgb(0, 0, 0); border-color: #957575; }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: grey;  border-color: rgb(0, 0, 0); }
 
+
 /* Settings For Items*/
   
 table, th, td {
@@ -23,4 +24,6 @@ table, th, td {
 table {
   width: 100%;
 }
+
+
 

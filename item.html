@@ -1,4 +1,18 @@
-<div class="item">
+<style>
+    a:link, a:visited {
+      color: white;
+      padding: 20px 31px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+    }
+  
+    a:hover, a:active {
+      background-color: grey;
+    }
+  </style>
+  <div class="item">
     <table>
       <tr>
         <th><h2>{{title}}</h2></th>
@@ -10,10 +24,7 @@
         <th><p>{{description}}</p></th>
       </tr>
       <tr>
-        <th><p>{{channeltitle}}</p></th>
-      </tr>
-      <tr>
-        <th><p>https://www.youtube.com/channel/{{channelid}}</p></th>
+        <th><a href="https://www.youtube.com/channel/{{channelid}}" target="_blank">{{channeltitle}}</a></th>
       </tr>
     </table>
   </div>

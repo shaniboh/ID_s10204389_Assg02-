@@ -1,33 +1,50 @@
-<style>
-    a:link, a:visited {
-      color: white;
-      padding: 20px 31px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      width: 100%;
-    }
-  
-    a:hover, a:active {
-      background-color: grey;
-    }
-  </style>
-  <div class="item">
-    <table>
-      <tr>
-        <th><h2>{{title}}</h2></th>
-      </tr>
-      <tr>
-        <td><iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe></td>
-      </tr>
-      <tr>
-        <th><p>{{description}}</p></th>
-      </tr>
-      <tr>
-        <th><a href="https://www.youtube.com/channel/{{channelid}}" target="_blank">{{channeltitle}}</a></th>
-      </tr>
-    </table>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>		
+        <title>VidListApplication</title>
+        <meta charset="UTF-8" />					
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Awesome videos!" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            a:link, a:visited {
+              color: white;
+              padding: 20px 31px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              width: 100%;
+            }
+          
+            a:hover, a:active {
+              background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item">
+            <table>
+              <tr>
+                <th><h2>{{title}}</h2></th>
+              </tr>
+              <tr>
+                <td><iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe></td>
+              </tr>
+              <tr>
+                <th><p>{{description}}</p></th>
+              </tr>
+              <tr>
+                <th><a href="https://www.youtube.com/channel/{{channelid}}" target="_blank">{{channeltitle}}</a></th>
+              </tr>
+            </table>
+          </div>
+    </body>
+</html>
   
   
   

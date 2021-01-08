@@ -1,33 +1,35 @@
 <style>
-    a:link, a:visited {
-      color: white;
-      padding: 20px 31px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      width: 100%;
-    }
+  a:link, a:visited {
+    color: white;
+    padding: 20px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+  }
   
-    a:hover, a:active {
-      background-color: #2C2C2C;
-    }
-  </style>
-  <div class="item">
-    <table>
-      <tr>
-        <th><h2>{{title}}</h2></th>
-      </tr>
-      <tr>
-        <td><iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe></td>
-      </tr>
-      <tr>
-        <th><p>{{description}}</p></th>
-      </tr>
-      <tr>
-        <th><a href="https://www.youtube.com/channel/{{channelid}}" target="_blank">About {{channeltitle}}</a></th>
-      </tr>
-    </table>
-  </div>
+  a:hover, a:active {
+    background-color: #2C2C2C;
+  }
+</style>
+
+<div class="item">
+  <table>
+    <tr>
+      <th><h2>{{title}}</h2></th>
+    </tr>
+    <tr>
+      <td><iframe class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe></td>
+    </tr>
+    <tr>
+      <th><p>{{description}}</p></th>
+    </tr>
+    <tr>
+      <th><a href="https://www.youtube.com/channel/{{channelid}}" target="_blank">About {{channeltitle}}</a></th>
+    </tr>
+  </table>
+</div>
+
   
   
   

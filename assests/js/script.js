@@ -59,7 +59,7 @@ function trendVid(){
        $.each(results.items, function(index, item) {
          $.get("item.html", function(data) {
              $("#results").append(tplawesome(data, [{"title":item.snippet.title, "videoid":item.id.videoId, "description":item.snippet.description,"channeltitle":item.snippet.channelTitle,"channelid":item.snippet.channelId}]));
-             console.log(data);
+             //console.log(data);
          });
        });
        resetVideoHeight();

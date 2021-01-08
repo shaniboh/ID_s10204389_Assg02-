@@ -39,6 +39,34 @@ function init() {
     });
 }
 
+function trendVid(){
+    // prepare the request
+    var request = gapi.client.youtube.search.list({
+         part: ["snippet"],
+         type: "video",
+         q: encodeURIComponent("trending").replace(/%20/g, "+"),
+         maxResults: 20,
+         mine: true,
+         order: "viewCount",
+         publishedAfter: "2020-01-01T00:00:00Z"
+    }); 
+
+    // execute the request
+    request.execute(function(response) {
+       var results = response.result;
+       console.log(results);
+       $("#results").html("");
+       $.each(results.items, function(index, item) {
+         $.get("item.html", function(data) {
+             $("#results").append(tplawesome(data, [{"title":item.snippet.title, "videoid":item.id.videoId, "description":item.snippet.description,"channeltitle":item.snippet.channelTitle,"channelid":item.snippet.channelId}]));
+             console.log(data);
+         });
+       });
+       resetVideoHeight();
+    });
+ $(window).on("resize", resetVideoHeight);
+}
+
 
 /*
 $(function() {

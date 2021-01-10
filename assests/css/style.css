@@ -1,24 +1,19 @@
-body{
-  background-color: #7e7e7e;
-}
-
-
-form { margin-top: 10px; }
+form { margin-top: 110px; }
 form, #results { padding: 0 20px; }
 .item { margin-bottom: 25px; }
 .w100 { width: 100%; }
 
-.btn-primary { background: rgb(0, 0, 0); border-color: #957575; }
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: grey;  border-color: rgb(0, 0, 0); }
+.btn-primary { background: #515151; border-color: white; }
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: #7e7e7e;  border-color:  white;}
 
 
 /* Settings For Items*/
   
 table, th, td {
-  border: 5px solid #232F34;
+  border: 5px solid white;
   font-size:15px;
   color:white;
-  background-color: #7e7e7e;
+  background-color: #515151;
 }
   
 table {

@@ -12,7 +12,7 @@
     </head>
     <body onload="trendVid()">
 
-      <nav class="navbar navbar-inverse" style="background-color: #2C2C2C;">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,26 +23,21 @@
             <a class="navbar-brand"href="index.html">VidList</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
               <li><a href="https://www.youtube.com/feed/trending">Trending</a></li>
-              </li>
+            </ul>
           </div>
         </div>
       </nav>
         
       <div class="container-fluid text-center" >    
         <div class="row content">
-          <div class="col-sm-2 sidenav">
-            <div class="w3-container">
-              <ul class="w3-ul">
-                <li class="w3-xxlarge" style="position:fixed"><a href="index.html"><i class="fa fa-home"></i></a></li>
-              </ul>
-            </div>
+          <div class="col-sm-1 sidenav">
           </div>
 
           <div class="row" style="background-color: #2C2C2C;">
-            <div class="col-md-9">
+            <div class="col-md-10">
               <form action="#">
                 <p><input type="text" id="search" placeholder="Search in VidList" autocomplete="off" class="form-control" /></p>
                 <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>

@@ -14,11 +14,12 @@ This project is to create and design a website for music lovers and users who ar
 
 Design Process
 
-During the designing of the website, my motive of creating this website is to provide a platform for users who wants to watch videos and listen to music of their likings by simply searching up for the relevant keywords. Besides the videos, I want to provide them some description of the videos and a link to the channels that published these videos to let users have a better understanding of the videos and be able to watch related videos in the channel of the video that the users are interested in.
+During the designing of the website, my motive of creating this website is to provide a platform for users who wants to watch videos and listen to music of their likings by simply searching up for the relevant keywords. Thus the main page of the website will display a list of videos of the search result "trending music". Besides the videos, I want to provide them some description of the videos and a link to the channels that published these videos to let users have a better understanding of the videos and be able to watch related videos in the channel of the video that the users are interested in.
 
 As a user who wants to search for videos, they are able to search for their desired videos.
 
 As a user who wants to know more details of videos that they have watched, they are able to find these videos in the link to the videos'channel.
+
 
 Wireframes
 
@@ -57,6 +58,7 @@ Features Left to Implement:
 Feature 1 - Play List
 It allows users to have their favourite videos saved into an individualized playlist.
 
+
 Technologies Used
 
 I have used github.com to publish my website and the repositories of the website.
@@ -64,6 +66,8 @@ I have used github.com to publish my website and the repositories of the website
 I have used Adobe XD to do my wireframes of the website of both desktop and mobile versions.
 
 I have watch Youtube videos to set up the Youtube API and examples to create a Youtube website.
+
+I have used http://console.developers.google.com/ to create Youtube API.
 
 I have reference codes of w3school.com to design my website.
 

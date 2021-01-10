@@ -31,6 +31,12 @@ https://xd.adobe.com/view/4d3e1261-8a54-4299-bf08-c6fde71be782-186d/
 ID Assignment 2 Mobile (Main) Draft 01:
 https://xd.adobe.com/view/74d70c33-3e66-43e2-b235-f48c54cadd76-2184/
 
+ID Assignment 2 Desktop (Main) Final:
+https://xd.adobe.com/view/abb9e533-e8cd-4ea3-a779-eafdfab2ae27-feea/
+
+ID Assignment 2 Mobile (Main) Final 01:
+https://xd.adobe.com/view/ed88f9d1-ff7a-412d-81c2-c2f302286153-b8db/
+
 
 
 Features

@@ -90,6 +90,8 @@ Youtube API:
 Try to send more than 10,000 queries of the website and verify that the website will not be able load anymore.
 This is because one Youtube API key can only used for a maximum of 10,000 queries, once exceed that number, the old Youtube API key must be replaced by a new one in order for the website to function or load.
 
+https://github.com/jdepoix/youtube-transcript-api/issues/78
+
 
 Credits
 
@@ -104,10 +106,15 @@ Youtube Link to create a Youtube Website:
 https://www.youtube.com/watch?v=-vH2eZAM30s
 https://github.com/FriesFlorian/viralvideos
 
+Youtube API Link:
+https://developers.google.com/youtube/v3/docs/search
+
 W3school Links
 
 W3school Link for Navigation Bar:
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_complete_animation
+
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h
 
 Image Links
 
